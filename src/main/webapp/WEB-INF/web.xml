@@ -4,15 +4,19 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     
-    <servlet>
-        <servlet-name>GetServlet</servlet-name>
-        <servlet-class>com.example.SampleProject.servlets.GetServlet</servlet-class>
-    </servlet>
+<!--    <servlet>-->
+<!--        <servlet-name>GetServlet</servlet-name>-->
+<!--        <servlet-class>com.example.SampleProject.servlets.GetServlet</servlet-class>-->
+<!--        <init-param>-->
+<!--            <param-name>URL</param-name>-->
+<!--            <param-value>http://weatherservice.com</param-value>-->
+<!--        </init-param>-->
+<!--    </servlet>-->
 
-    <servlet-mapping>
-        <servlet-name>GetServlet</servlet-name>
-        <url-pattern>/getServlet</url-pattern>
-    </servlet-mapping>
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>GetServlet</servlet-name>-->
+<!--        <url-pattern>/getServlet</url-pattern>-->
+<!--    </servlet-mapping>-->
 
 
 
@@ -33,4 +37,12 @@
         <servlet-name>HomeServlet</servlet-name>
         <url-pattern></url-pattern>
     </servlet-mapping>
+
+
+    <context-param>
+        <param-name>dbURL</param-name>
+        <param-value>jdbc:mysql://localhost:3306/hplus</param-value>
+    </context-param>
+
+
 </web-app>
