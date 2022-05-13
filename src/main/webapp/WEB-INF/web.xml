@@ -44,5 +44,10 @@
         <param-value>jdbc:mysql://localhost:3306/hplus</param-value>
     </context-param>
 
+    <listener>
+        <listener-class>com.example.SampleProject.listener.ApplicationListener</listener-class>
+
+    </listener>
+
 
 </web-app>

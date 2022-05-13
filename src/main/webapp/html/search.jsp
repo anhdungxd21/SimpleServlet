@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <%@page import="java.util.Iterator"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="com.test.beans.Product"%>
+<%@page import="com.example.SampleProject.beans.Product"%>
 <%@page import="java.util.List" buffer="8kb" isELIgnored="false"
 	session="true" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1" isThreadSafe="true" isErrorPage="false"
@@ -32,7 +32,7 @@
 					<li><a href="login">login</a></li>
 					<li><a href="#people">people</a></li>
 					<li><a href="#search">search</a></li>
-					<li><a href="register">new user?</a></li>
+					<li><a href="registerUser">new user?</a></li>
 					<li><a href="redirect">linkedIn</a></li>
 				</ul>
 				<!-- navbar -->
